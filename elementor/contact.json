@@ -1,0 +1,1073 @@
+{
+  "title": "Northline Projects — Contact",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "default"
+  },
+  "content": [
+    {
+      "id": "a0003f0",
+      "elType": "container",
+      "settings": {
+        "_title": "Contact / introduction",
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "column": "0",
+          "row": "24",
+          "isLinked": false
+        },
+        "padding": {
+          "unit": "custom",
+          "top": "80px",
+          "right": "var(--pad)",
+          "bottom": "30px",
+          "left": "var(--pad)",
+          "isLinked": false
+        },
+        "html_tag": "section",
+        "padding_tablet": {
+          "unit": "px",
+          "top": "64",
+          "right": "40",
+          "bottom": "64",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "52",
+          "right": "24",
+          "bottom": "16",
+          "left": "24",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F5F3EF"
+      },
+      "elements": [
+        {
+          "id": "a0003ef",
+          "elType": "container",
+          "settings": {
+            "_title": "Contact introduction",
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "column": "0",
+              "row": "24",
+              "isLinked": false
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "container_type": "grid",
+            "grid_columns_grid": {
+              "unit": "custom",
+              "size": "minmax(0,1.2fr) minmax(0,1fr)",
+              "sizes": []
+            },
+            "grid_rows_grid": {
+              "unit": "custom",
+              "size": "auto",
+              "sizes": []
+            },
+            "grid_gaps": {
+              "unit": "px",
+              "column": "80",
+              "row": "32",
+              "isLinked": false
+            },
+            "grid_columns_grid_mobile": {
+              "unit": "custom",
+              "size": "minmax(0,1fr)",
+              "sizes": []
+            },
+            "grid_gaps_mobile": {
+              "unit": "px",
+              "column": "0",
+              "row": "32",
+              "isLinked": false
+            },
+            "grid_align_items": "start"
+          },
+          "elements": [
+            {
+              "id": "a0003eb",
+              "elType": "container",
+              "settings": {
+                "_title": "Page title",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "0",
+                  "row": "24",
+                  "isLinked": false
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "a0003e9",
+                  "elType": "widget",
+                  "settings": {
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "400",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": 0.1,
+                      "sizes": []
+                    },
+                    "text_color": "#202222",
+                    "editor": "<p>CONTACT NORTHLINE</p>"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "a0003ea",
+                  "elType": "widget",
+                  "settings": {
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "400",
+                    "typography_font_size": {
+                      "unit": "custom",
+                      "size": "clamp(48px,5vw,76px)",
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.1,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": -0.045,
+                      "sizes": []
+                    },
+                    "text_color": "#202222",
+                    "title": "Let’s talk about<br>your home.",
+                    "header_size": "h1",
+                    "title_color": "#202222",
+                    "typography_font_size_mobile": {
+                      "unit": "custom",
+                      "size": "clamp(32px,8.5vw,38px)",
+                      "sizes": []
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 42,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "a0003ee",
+              "elType": "container",
+              "settings": {
+                "_title": "Opening copy",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "0",
+                  "row": "24",
+                  "isLinked": false
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "39",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "a0003ec",
+                  "elType": "widget",
+                  "settings": {
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "400",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.65,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": 0,
+                      "sizes": []
+                    },
+                    "text_color": "#202222",
+                    "editor": "<p>Every considered home begins with a conversation.</p>"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "a0003ed",
+                  "elType": "widget",
+                  "settings": {
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "400",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 17,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.65,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": 0,
+                      "sizes": []
+                    },
+                    "text_color": "#595C59",
+                    "editor": "<p>Whether you are planning a new build, rethinking an existing space or simply exploring what is possible, start with what matters to you.</p>"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "a000409",
+      "elType": "container",
+      "settings": {
+        "_title": "Contact details and enquiry",
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "column": "0",
+          "row": "24",
+          "isLinked": false
+        },
+        "padding": {
+          "unit": "custom",
+          "top": "24px",
+          "right": "var(--pad)",
+          "bottom": "80px",
+          "left": "var(--pad)",
+          "isLinked": false
+        },
+        "html_tag": "section",
+        "padding_tablet": {
+          "unit": "px",
+          "top": "64",
+          "right": "40",
+          "bottom": "64",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "52",
+          "right": "24",
+          "bottom": "52",
+          "left": "24",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F5F3EF"
+      },
+      "elements": [
+        {
+          "id": "a000408",
+          "elType": "container",
+          "settings": {
+            "_title": "Contact and form columns",
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "column": "0",
+              "row": "24",
+              "isLinked": false
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "container_type": "grid",
+            "grid_columns_grid": {
+              "unit": "custom",
+              "size": "minmax(0,.85fr) minmax(0,1.3fr)",
+              "sizes": []
+            },
+            "grid_rows_grid": {
+              "unit": "custom",
+              "size": "auto",
+              "sizes": []
+            },
+            "grid_gaps": {
+              "unit": "px",
+              "column": "80",
+              "row": "32",
+              "isLinked": false
+            },
+            "grid_columns_grid_mobile": {
+              "unit": "custom",
+              "size": "minmax(0,1fr)",
+              "sizes": []
+            },
+            "grid_gaps_mobile": {
+              "unit": "px",
+              "column": "0",
+              "row": "32",
+              "isLinked": false
+            },
+            "grid_align_items": "start"
+          },
+          "elements": [
+            {
+              "id": "a000401",
+              "elType": "container",
+              "settings": {
+                "_title": "Mock contact details",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "0",
+                  "row": "28",
+                  "isLinked": false
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "a0003f1",
+                  "elType": "widget",
+                  "settings": {
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "400",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": 0.1,
+                      "sizes": []
+                    },
+                    "text_color": "#202222",
+                    "editor": "<p>GET IN TOUCH</p>"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "a0003f2",
+                  "elType": "widget",
+                  "settings": {
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "400",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 42,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.1,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": -0.045,
+                      "sizes": []
+                    },
+                    "text_color": "#202222",
+                    "title": "A place to begin.",
+                    "header_size": "h2",
+                    "title_color": "#202222",
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 38,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "a0003f3",
+                  "elType": "widget",
+                  "settings": {
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "400",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.65,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": 0,
+                      "sizes": []
+                    },
+                    "text_color": "#202222",
+                    "editor": "<p>Melbourne & surrounding suburbs</p>"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "a0003f4",
+                  "elType": "widget",
+                  "settings": {
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "400",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.65,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": 0,
+                      "sizes": []
+                    },
+                    "text_color": "#595C59",
+                    "editor": "<p>The contact details below are placeholders for this demonstration.</p>"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "a0003f7",
+                  "elType": "container",
+                  "settings": {
+                    "_title": "Email",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "column": "0",
+                      "row": "6",
+                      "isLinked": false
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "a0003f5",
+                      "elType": "widget",
+                      "settings": {
+                        "typography_typography": "custom",
+                        "typography_font_family": "Arial",
+                        "typography_font_weight": "400",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": 0.1,
+                          "sizes": []
+                        },
+                        "text_color": "#202222",
+                        "editor": "<p>EMAIL</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "a0003f6",
+                      "elType": "widget",
+                      "settings": {
+                        "typography_typography": "custom",
+                        "typography_font_family": "Arial",
+                        "typography_font_weight": "400",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.65,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": 0,
+                          "sizes": []
+                        },
+                        "text_color": "#202222",
+                        "editor": "<p>hello@northlineprojects.example</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "a0003fa",
+                  "elType": "container",
+                  "settings": {
+                    "_title": "Phone",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "column": "0",
+                      "row": "6",
+                      "isLinked": false
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "a0003f8",
+                      "elType": "widget",
+                      "settings": {
+                        "typography_typography": "custom",
+                        "typography_font_family": "Arial",
+                        "typography_font_weight": "400",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": 0.1,
+                          "sizes": []
+                        },
+                        "text_color": "#202222",
+                        "editor": "<p>PHONE</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "a0003f9",
+                      "elType": "widget",
+                      "settings": {
+                        "typography_typography": "custom",
+                        "typography_font_family": "Arial",
+                        "typography_font_weight": "400",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 20,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.65,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": 0,
+                          "sizes": []
+                        },
+                        "text_color": "#202222",
+                        "editor": "<p>(03) 0000 0000</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "a0003fd",
+                  "elType": "container",
+                  "settings": {
+                    "_title": "Office hours",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "column": "0",
+                      "row": "6",
+                      "isLinked": false
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "a0003fb",
+                      "elType": "widget",
+                      "settings": {
+                        "typography_typography": "custom",
+                        "typography_font_family": "Arial",
+                        "typography_font_weight": "400",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": 0.1,
+                          "sizes": []
+                        },
+                        "text_color": "#202222",
+                        "editor": "<p>OFFICE HOURS</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "a0003fc",
+                      "elType": "widget",
+                      "settings": {
+                        "typography_typography": "custom",
+                        "typography_font_family": "Arial",
+                        "typography_font_weight": "400",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.65,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": 0,
+                          "sizes": []
+                        },
+                        "text_color": "#202222",
+                        "editor": "<p>Monday–Friday, 9am–5pm<br>Melbourne time · Demonstration hours</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": false
+                },
+                {
+                  "id": "a000400",
+                  "elType": "container",
+                  "settings": {
+                    "_title": "Architectural detail",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "column": "0",
+                      "row": "12",
+                      "isLinked": false
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "14",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "a0003fe",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "id": "",
+                          "url": ""
+                        },
+                        "image_size": "full",
+                        "align": "left",
+                        "width": {
+                          "unit": "%",
+                          "size": 100,
+                          "sizes": []
+                        },
+                        "height": {
+                          "unit": "px",
+                          "size": 420,
+                          "sizes": []
+                        },
+                        "height_mobile": {
+                          "unit": "px",
+                          "size": 330,
+                          "sizes": []
+                        },
+                        "object_fit": "cover",
+                        "object_position": "center center"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    },
+                    {
+                      "id": "a0003ff",
+                      "elType": "widget",
+                      "settings": {
+                        "typography_typography": "custom",
+                        "typography_font_family": "Arial",
+                        "typography_font_weight": "400",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.65,
+                          "sizes": []
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "em",
+                          "size": 0,
+                          "sizes": []
+                        },
+                        "text_color": "#595C59",
+                        "editor": "<p>Illustrative interior · Material, light and everyday life.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": false
+                }
+              ],
+              "isInner": false
+            },
+            {
+              "id": "a000407",
+              "elType": "container",
+              "settings": {
+                "_title": "Project enquiry form",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "0",
+                  "row": "20",
+                  "isLinked": false
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "40",
+                  "right": "40",
+                  "bottom": "40",
+                  "left": "40",
+                  "isLinked": false
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "20",
+                  "bottom": "28",
+                  "left": "20",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#E8E5DF"
+              },
+              "elements": [
+                {
+                  "id": "a000403",
+                  "elType": "widget",
+                  "settings": {
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "400",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": 0.1,
+                      "sizes": []
+                    },
+                    "text_color": "#202222",
+                    "editor": "<p>YOUR PROJECT</p>"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "a000404",
+                  "elType": "widget",
+                  "settings": {
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "400",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 42,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.1,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": -0.045,
+                      "sizes": []
+                    },
+                    "text_color": "#202222",
+                    "title": "Tell us what<br>you have in mind.",
+                    "header_size": "h2",
+                    "title_color": "#202222",
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 38,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "a000405",
+                  "elType": "widget",
+                  "settings": {
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "400",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.65,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": 0,
+                      "sizes": []
+                    },
+                    "text_color": "#595C59",
+                    "editor": "<p>A few details will help frame the conversation. Fields marked with an asterisk are required.</p>"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "a000406",
+                  "elType": "widget",
+                  "settings": {
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "400",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.65,
+                      "sizes": []
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "em",
+                      "size": 0,
+                      "sizes": []
+                    },
+                    "text_color": "#595C59",
+                    "editor": "<p>Demo form: use test details only. No enquiry email will be sent.</p>"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "a000402",
+                  "elType": "widget",
+                  "settings": {
+                    "form_id": "",
+                    "display_form_name": "",
+                    "display_form_description": "",
+                    "wpformsTheme": "default",
+                    "isCustomTheme": "true",
+                    "isMigrated": "true",
+                    "fieldSize": "large",
+                    "fieldBorderStyle": "solid",
+                    "fieldBorderSize": 1,
+                    "fieldBorderRadius": 0,
+                    "fieldBackgroundColor": "#F5F3EF",
+                    "fieldBorderColor": "#AAA59D",
+                    "fieldTextColor": "#202222",
+                    "fieldMenuColor": "#F5F3EF",
+                    "labelSize": "medium",
+                    "labelColor": "#202222",
+                    "labelSublabelColor": "#595C59",
+                    "labelErrorColor": "#9C3026",
+                    "buttonSize": "large",
+                    "buttonBorderStyle": "solid",
+                    "buttonBorderSize": 1,
+                    "buttonBorderRadius": 0,
+                    "buttonBackgroundColor": "#202222",
+                    "buttonBorderColor": "#202222",
+                    "buttonTextColor": "#F5F3EF",
+                    "containerPadding": 0,
+                    "containerBorderStyle": "none",
+                    "containerBorderRadius": 0,
+                    "containerShadowSize": "none",
+                    "backgroundColor": "rgba(0,0,0,0)",
+                    "pageBreakColor": "#B3A48E"
+                  },
+                  "elements": [],
+                  "widgetType": "wpforms"
+                }
+              ],
+              "isInner": false
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

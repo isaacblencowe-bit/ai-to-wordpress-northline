@@ -1,0 +1,25 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+*.zip
+*.tar*
+*.sql
+*.sql.gz
+*.pem
+*.key
+node_modules/
+vendor/
+wp-admin/
+wp-includes/
+wp-config.php
+uploads/
+.cache/
+work/
+qa/
+# Replacement photographs must be reviewed before being tracked.
+*.jpg
+*.jpeg
+*.png
+*.webp

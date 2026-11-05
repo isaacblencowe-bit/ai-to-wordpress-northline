@@ -1,0 +1,1 @@
+Photography intentionally excluded pending per-image rights verification. Supply your own licensed JPEG files named exterior.jpg, hero.jpg, interior.jpg and residence.jpg. See docs/assets-and-licensing.md.

@@ -4,7 +4,7 @@ This is a private review candidate. Do not make it public, create a GitHub Relea
 
 | Severity | Finding | Required action |
 |---|---|---|
-| BLOCKER | No approved project licence | Owner approves licence/ownership scope; add licence text and consistent notices before publication |
+| INFORMATIONAL | GPL-2.0-or-later approved and applied | Official licence text and matching notices included; third-party rights remain separate |
 | WARNING | Sanitized release not installed in isolated WordPress | Test theme activation, media setup, all three imports and direct editing on a disposable installation |
 | WARNING | Photography omitted | Supply licensed replacements for installation; retain omission from repository unless redistribution is established |
 | WARNING | Contact is not a complete form migration | Recreate WPForms form using wpforms.md, select it, verify demo-only notifications |

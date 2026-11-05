@@ -1,19 +1,19 @@
 # Asset and licensing assessment
 
-Review date: 6 November 2026. **No licence is applied pending approval.** Recommend GPL-2.0-or-later for the project source, subject to owner confirmation of ownership and dependency obligations. WordPress documents its GPLv2-or-later position for derivative themes: https://wordpress.org/about/license/ . This is a release assessment, not legal advice.
+Review date: 6 November 2026. The owner explicitly approved **GPL-2.0-or-later** for the custom theme and educational source on this date. This covers the included custom PHP/CSS/JavaScript, Elementor templates, original concept source and release documentation. The full GPLv2 text is in ../LICENSE; recipients may use version 2 or, at their option, any later version. The README and theme header carry matching notices.
 
-The tutorial theme already contained a GPL header; its presence is not treated as approval for this release. That header has been removed only from the release copy pending a decision. No third-party licence is revoked or replaced. Owner approval and consistent licence notices are a publication blocker.
+The official licence text was obtained from https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt . WordPress describes its GPLv2-or-later licensing position at https://wordpress.org/about/license/ . No third-party licence is replaced by this grant, and no rights to excluded photographs are implied.
 
 ## Included asset inventory
 
 | Asset | Provenance | Distribution/attribution status |
 |---|---|---|
-| Theme PHP, CSS, JS, internal JSON | Custom tutorial implementation | Owner approval pending for open-source grant |
-| Elementor page JSON/copy | Native exports created for tutorial | Same; external media references removed |
-| Concept HTML, CSS, JS | Original tutorial concept | Same; unchanged source only |
+| Theme PHP, CSS, JS, internal JSON | Custom tutorial implementation | GPL-2.0-or-later; owner approved |
+| Elementor page JSON/copy | Native exports created for tutorial | GPL-2.0-or-later; external media references removed |
+| Concept HTML, CSS, JS | Original tutorial concept | GPL-2.0-or-later; unchanged source only |
 | Logo/monogram | Text/CSS in tutorial source | No separate image or icon library |
 | Fonts | System Arial, Helvetica, sans-serif references | No font files distributed; system rendering varies |
-| Documentation | Written for this release | Included under future approved project licence |
+| Documentation | Written for this release | GPL-2.0-or-later |
 
 WordPress, Elementor, WPForms and Yoast are external dependencies, not redistributed here. No vendor scripts, icon/font binaries or third-party software bundles are included. Obtain dependencies from their official distributions under their own licences.
 

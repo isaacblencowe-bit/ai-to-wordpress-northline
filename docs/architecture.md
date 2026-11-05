@@ -11,7 +11,7 @@ Native containers, headings, text editors, images and buttons form the homepage/
 - Third-party JPEGs excluded; original HTML/CSS/JS retained unchanged. Concept needs replacement images before visual use.
 - Standalone exports retain their element IDs, hierarchy, content and styles; media IDs/URLs are blank, Contact form ID is blank, and two About links use root-relative home anchors. See media-map.md for images.
 - Theme setup gains a local readability preflight for all four excluded JPEGs before media/settings mutations. Existing imported-page fast return remains intact. This addition has been inspected statically, not runtime tested.
-- Original theme header's pre-existing GPL declaration is omitted from this private review copy pending explicit owner approval. No LICENSE grant has been added.
+- Following explicit owner approval on 6 November 2026, the release uses GPL-2.0-or-later, with the official GPLv2 text in LICENSE and matching theme/README notices. External dependencies and excluded photographs retain their separate rights.
 - Documentation is rewritten for a new installation, excluding tutorial installation IDs, staging hosts, local paths and diagnostic artifacts.
 
 Theme PHP/CSS/JS otherwise remain the tutorial source. Original concept and live WordPress website have not been changed by release preparation. No database configuration or plugin code is bundled.

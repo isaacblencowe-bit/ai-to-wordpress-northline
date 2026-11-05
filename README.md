@@ -2,7 +2,7 @@
 
 Northline Projects is a fictional Melbourne construction website created for an Isaac Design YouTube tutorial. This educational source demonstrates how ChatGPT and Codex can transform a custom HTML concept into a lightweight WordPress theme with native Elementor-editable content.
 
-**Private review candidate. Licence approval is pending. Do not publish yet.** Photography is intentionally excluded. This is source for assembling the demonstration, not a ready-to-import complete website backup.
+**Private review candidate. Licensed GPL-2.0-or-later. Do not publish yet.** Photography is intentionally excluded. This is source for assembling the demonstration, not a ready-to-import complete website backup.
 
 Tutorial: **[YouTube tutorial URL to be added once published]**
 
@@ -47,4 +47,4 @@ Always test in a development or staging environment before using any code on a p
 
 Northline Projects, its projects, testimonials and contact details are fictional demonstration content. Illustrative architecture does not establish completed work or a Melbourne location. The homepage enquiry panel sends nothing. The Contact form must keep notifications off during demonstration testing.
 
-No licence has been applied to this release pending owner approval. GPL-2.0-or-later is recommended; see [licensing assessment](docs/assets-and-licensing.md). No permission to redistribute third-party photographs is implied. See [validation](docs/validation.md) and [release review](docs/release-review.md) before publication.
+The custom source, Elementor templates, concept source and documentation are licensed under the GNU General Public License, version 2 or (at your option) any later version (SPDX: `GPL-2.0-or-later`). See [LICENSE](LICENSE) for the full terms and [licensing assessment](docs/assets-and-licensing.md) for scope. No permission to redistribute third-party photographs is implied. See [validation](docs/validation.md) and [release review](docs/release-review.md) before publication.

@@ -17,7 +17,7 @@ No WordPress core, plugin source, credentials, database, form entries, developme
 
 ## Requirements and installation
 
-Theme headers declare WordPress 6.9+ and PHP 8.0+. Prior tutorial testing recorded WordPress 7.1.4, PHP 8.2.35 and Elementor Free 4.3.5; this is historical evidence, not certification of other versions. Contact requires WPForms Lite (tutorial: 2.0.3.1). Elementor Pro is not required. Yoast is optional and its database configuration is not exported.
+Theme headers declare WordPress 6.9+ and PHP 8.0+. Independent release testing passed on WordPress 7.1.4, PHP 8.2.35, Elementor Free 4.3.6 and WPForms Lite 2.0.4 using local SQLite/PHP-WASM. Contact requires WPForms Lite. Declared minimum versions and conventional PHP/MySQL hosting remain untested; see [validation](docs/validation.md). Elementor Pro is not required. Yoast is optional and its database configuration is not exported.
 
 1. Use a separate staging installation, with backups and indexing disabled.
 2. Supply four licensed JPEGs as described in [asset notes](docs/assets-and-licensing.md).

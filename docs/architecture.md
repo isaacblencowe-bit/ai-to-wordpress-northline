@@ -10,7 +10,7 @@ Native containers, headings, text editors, images and buttons form the homepage/
 
 - Third-party JPEGs excluded; original HTML/CSS/JS retained unchanged. Concept needs replacement images before visual use.
 - Standalone exports retain their element IDs, hierarchy, content and styles; media IDs/URLs are blank, Contact form ID is blank, and two About links use root-relative home anchors. See media-map.md for images.
-- Theme setup gains a local readability preflight for all four excluded JPEGs before media/settings mutations. Existing imported-page fast return remains intact. This addition has been inspected statically, not runtime tested.
+- Theme setup gains a local readability preflight for all four excluded JPEGs before media/settings mutations. Existing imported-page fast return remains intact. The missing-image preflight and successful replacement-media import were runtime tested in the isolated environment described in [validation.md](validation.md). Setup explains that photographs are excluded and links to the repository asset guide.
 - Following explicit owner approval on 6 November 2026, the release uses GPL-2.0-or-later, with the official GPLv2 text in LICENSE and matching theme/README notices. External dependencies and excluded photographs retain their separate rights.
 - Documentation is rewritten for a new installation, excluding tutorial installation IDs, staging hosts, local paths and diagnostic artifacts.
 

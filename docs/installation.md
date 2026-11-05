@@ -2,7 +2,7 @@
 
 ## Preparation
 
-Use an administrator account, writable uploads directory and backups. Theme declared minimums: WordPress 6.9, PHP 8.0. Historical tutorial runtime: WordPress 7.1.4 / PHP 8.2.35 / Elementor Free 4.3.5. Contact integration was tested with WPForms Lite 2.0.3.1. The sanitized release has not been installed on a second WordPress instance; verify compatibility locally before relying on it.
+Use an administrator account, writable uploads directory and backups. Theme declared minimums: WordPress 6.9, PHP 8.0. Independent release validation used WordPress 7.1.4 / PHP 8.2.35 / Elementor Free 4.3.6 / WPForms Lite 2.0.4 in a fresh local SQLite/PHP-WASM environment. Declared minimum versions and conventional PHP/MySQL hosting were not tested. See [validation results and limits](validation.md); test your own destination before relying on it.
 
 ## Homepage setup
 

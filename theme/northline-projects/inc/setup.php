@@ -9,7 +9,7 @@ function northline_import_homepage() {
  /* Educational release: supply rights-cleared images before importing. */
  foreach ( array( 'exterior', 'hero', 'interior', 'residence' ) as $asset ) {
   if ( ! is_readable( get_theme_file_path( '/assets/images/' . $asset . '.jpg' ) ) ) {
-   return new WP_Error( 'missing_release_images', 'Supply the four licensed replacement JPEGs described in docs/assets-and-licensing.md before running setup.' );
+   return new WP_Error( 'missing_release_images', 'Photographs are not included. Add licensed exterior.jpg, hero.jpg, interior.jpg and residence.jpg files to this theme’s assets/images folder before running setup. See the replacement-image instructions below.' );
   }
  }
  require_once ABSPATH . 'wp-admin/includes/file.php';
@@ -26,7 +26,7 @@ function northline_import_homepage() {
   if ( ! empty( $media[$key]['id'] ) && wp_attachment_is_image( $media[$key]['id'] ) ) { continue; }
   $file = get_theme_file_path( '/assets/images/' . $key . '.jpg' );
   $tmp = wp_tempnam( $key . '.jpg' );
-  if ( ! $tmp || ! copy( $file, $tmp ) ) { return new WP_Error( 'image_copy', 'Could not prepare bundled image.' ); }
+  if ( ! $tmp || ! copy( $file, $tmp ) ) { return new WP_Error( 'image_copy', 'Could not prepare the supplied replacement image.' ); }
   $id = media_handle_sideload( array( 'name' => 'northline-' . $key . '.jpg', 'tmp_name' => $tmp ), 0, $alt );
   if ( is_wp_error( $id ) ) { wp_delete_file( $tmp ); return $id; }
   update_post_meta( $id, '_wp_attachment_image_alt', $alt );
@@ -95,5 +95,5 @@ function northline_setup_screen() {
   $result = northline_import_homepage();
   $message = is_wp_error( $result ) ? $result->get_error_message() : 'Homepage ready. Open Pages and choose Edit with Elementor.';
  }
- ?><div class="wrap"><h1>Northline Projects Setup</h1><?php if ( $message ) { echo '<div class="notice notice-info"><p>' . esc_html( $message ) . '</p></div>'; } ?><p>Import the four bundled illustrative photographs, native Elementor homepage and menus. Set the new page as the homepage and apply the approved typography, palette and responsive breakpoints to Elementor’s global kit. Existing pages remain intact. Running this again will return the existing imported page without overwriting edits.</p><p>Requires Elementor Free. All content is fictional. The enquiry interaction is a demonstration.</p><form method="post"><?php wp_nonce_field( 'northline_import' ); ?><p><button class="button button-primary" name="northline_import" value="1">Set up Northline homepage</button></p></form></div><?php
+ ?><div class="wrap"><h1>Northline Projects Setup</h1><?php if ( $message ) { echo '<div class="notice notice-info"><p>' . esc_html( $message ) . '</p></div>'; } ?><p>Photographs are not included in this educational release. Supply four licensed replacement JPEGs in this theme’s <code>assets/images/</code> folder: <code>exterior.jpg</code>, <code>hero.jpg</code>, <code>interior.jpg</code> and <code>residence.jpg</code>. Setup imports those images into the Media Library, together with the native Elementor homepage and menus. Set the new page as the homepage and apply the approved typography, palette and responsive breakpoints to Elementor’s global kit. Existing pages remain intact. Running this again will return the existing imported page without overwriting edits.</p><p>Replacement-image instructions: <a href="<?php echo esc_url( 'https://github.com/isaacblencowe-bit/ai-to-wordpress-northline/blob/main/docs/assets-and-licensing.md' ); ?>">Northline asset and licensing guide</a>. While the repository is private, sign in to GitHub with an account that has access. The same guide is included in the repository download under <code>docs/assets-and-licensing.md</code>. After import, update image alternative text to describe your replacements.</p><p>Requires Elementor Free. All content is fictional. The enquiry interaction is a demonstration.</p><form method="post"><?php wp_nonce_field( 'northline_import' ); ?><p><button class="button button-primary" name="northline_import" value="1">Set up Northline homepage</button></p></form></div><?php
 }

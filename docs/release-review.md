@@ -1,6 +1,6 @@
 # Publication review
 
-This is a private review candidate. Do not make it public, create a GitHub Release, enable Pages or deploy it without explicit approval.
+The owner approved public repository visibility on 6 November 2026 following the final readiness review. This approval does not enable GitHub Pages, deployments or a separate GitHub Release.
 
 | Severity | Finding | Required action |
 |---|---|---|
@@ -14,6 +14,6 @@ This is a private review candidate. Do not make it public, create a GitHub Relea
 | INFORMATIONAL | Root-relative About anchors | Adjust for WordPress subdirectory installations |
 | INFORMATIONAL | Educational source without support guarantee | README explicitly states as-is/no ongoing support |
 
-No public launch is authorised by repository preparation. Final exact-commit security/history/privacy observations are reported separately after committing; findings from that final read-only audit are not silently fixed.
+Public source sharing is authorised; deploying the website is not. Final exact-commit security/history/privacy observations are reported separately after committing; findings from that final read-only audit are not silently fixed.
 
-The confirmed setup-wording warnings have been addressed: the interface explicitly excludes photographs, lists required replacements and links to the repository asset guide with a private-access explanation. The tutorial URL remains intentionally pending. Current verdict: **READY WITH DOCUMENTED LIMITATIONS**, awaiting owner approval for any public release.
+The confirmed setup-wording warnings have been addressed: the interface explicitly excludes photographs, lists required replacements and links to the repository asset guide. The tutorial URL remains intentionally pending. Current verdict: **READY WITH DOCUMENTED LIMITATIONS**, approved by the owner for public source sharing.

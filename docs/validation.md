@@ -43,4 +43,4 @@ The final read-only audit of the tested candidate covered 30 tracked files and 3
 
 Earlier tutorial-site QA is separate historical evidence, not the basis for these independent results. Raw development logs and screenshots containing environment context or excluded imagery are not distributed in this repository. The original development website and tutorial files were untouched.
 
-The educational, unsupported and as-is disclaimer in README.md continues to apply. Always validate your own development/staging installation before production use. Public release requires explicit owner approval.
+The educational, unsupported and as-is disclaimer in README.md continues to apply. Always validate your own development/staging installation before production use. The owner subsequently approved public source sharing on 6 November 2026. This does not extend the tested compatibility or authorise a deployment.

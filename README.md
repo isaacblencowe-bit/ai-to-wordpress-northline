@@ -4,7 +4,7 @@ Northline Projects is a fictional Melbourne construction website created for an 
 
 **Educational source release. Licensed GPL-2.0-or-later.** Photography is intentionally excluded. This is source for assembling the demonstration, not a ready-to-import complete website backup.
 
-Tutorial: **[YouTube tutorial URL to be added once published]**
+Tutorial: **[Watch the YouTube tutorial](https://youtu.be/b_XLrl2LxE4)**
 
 ## Included
 

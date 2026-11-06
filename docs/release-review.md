@@ -16,4 +16,4 @@ The owner approved public repository visibility on 6 November 2026 following the
 
 Public source sharing is authorised; deploying the website is not. Final exact-commit security/history/privacy observations are reported separately after committing; findings from that final read-only audit are not silently fixed.
 
-The confirmed setup-wording warnings have been addressed: the interface explicitly excludes photographs, lists required replacements and links to the repository asset guide. The tutorial URL remains intentionally pending. Current verdict: **READY WITH DOCUMENTED LIMITATIONS**, approved by the owner for public source sharing.
+The confirmed setup-wording warnings have been addressed: the interface explicitly excludes photographs, lists required replacements and links to the repository asset guide. The owner-supplied tutorial URL is linked in the README. Current verdict: **READY WITH DOCUMENTED LIMITATIONS**, approved by the owner for public source sharing.
